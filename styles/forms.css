@@ -30,14 +30,13 @@ form fieldset {
 	padding: 1em 2em 2em 2em;
 	position: relative;
 }
+
 form legend {
 	font-family:cursive;
 	width: 90%;
 	padding: 0.5rem 1rem;
 	left: -1px;
 	top: -1.4rem;
-	float: left;
-	margin-bottom: .5rem;
 }
 
 form label {
@@ -133,4 +132,3 @@ form textarea:focus {
 	display: flex;
     flex-direction: column;
 }
-

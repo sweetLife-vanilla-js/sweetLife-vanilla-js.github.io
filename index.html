@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Sweet Life</title>
+    <link rel="stylesheet" type="text/css" href="./styles/styles.css">
+    <script src="/src/app.js" type="module"></script>
+</head>
+
+<body>
+    <!--Navigation-->
+    <header id="site-header">
+        <nav class="navbar">
+            <ul class="navbar-dashboard">
+                
+
+                <div>
+                <!--Users and Guest-->
+                <li><a href="/">Dashboard</a></li>
+                <!--Only Guest-->
+            </div>
+
+                <div id="guest">
+                    <li><a href="/login">Login</a></li>
+                    <li><a href="/register">Register</a></li>
+                </div>
+
+                <!--Only Users-->
+
+                <div id="user">
+                    <span></span>
+                    <li><a href="/create">Create recipe</a></li>
+                    <li><a href="/my-recipes">My Sweets</a></li>
+                    <li><a id="logoutBtn" href="javascript:void(0)">Logout</a></li>
+                </div>
+
+            </ul>
+        </nav>
+    </header>
+
+    <main id="site-content">
+
+    </main>
+
+    <footer id="site-footer">
+        <p>The dessert goes straight to the heart &copy;</p>
+    </footer>
+</body>
+
+</html>
